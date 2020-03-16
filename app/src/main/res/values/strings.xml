@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">按键精灵</string>
+    <string name="selecimg1">选择图片1</string>
+    <string name="selecimg2">选择图片2</string>
+    <string name="deal">处理</string>
+    <string name="todo">TODO</string>
+    <string name="recogimg">图像识别</string>
+    <string name="floatwin">悬浮窗</string>
+    <string name="test">test</string>
+    <string name="recording">制造糖果（ROOT！）</string>
+    <string name="simulate">品尝糖果（ROOT！）</string>
+    <string name="del">抢走糖果</string>
+    <string name="FileManager">文件管理</string>
+    <string name="core">按键精灵</string>
+    <string name="one">1</string>
+    <string name="myName">by 李半默</string>
+    <string name="depository">精灵仓库</string>
+    <string name="data">数据</string>
+    <string name="mov">精灵</string>
+    <string name="length">糖果</string>
+    <string name="startRecord">使用</string>
+    <string name="newelf">产生新精灵</string>
+    <string name="die">回归自然</string>
+
+</resources>

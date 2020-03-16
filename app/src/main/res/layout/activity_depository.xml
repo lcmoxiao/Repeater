@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/heart"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/depository"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorName" />
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#4DAE10CA"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mRecycleView"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+  </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/newelf"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_core_activity_button"
+        android:text="@string/newelf"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

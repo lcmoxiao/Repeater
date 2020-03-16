@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.repeater">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_me"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_me"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".img_recog.RecogImgActivity" />
+        <activity android:name=".elf_home.DepositoryActivity" />
+        <activity android:name=".elf_home.ElfHomeActivity" />
+        <activity android:name=".elf_home.elf.ElfActivity" />
+
+        <service android:name=".elf_home.elf.ShotService" />
+        <service android:name=".elf_home.elf.SimulateService" />
+        <service android:name=".elf_home.elf.RecordService" />
+    </application>
+
+</manifest>
